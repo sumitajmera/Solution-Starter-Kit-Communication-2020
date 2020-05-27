@@ -1,4 +1,4 @@
-# INDIAN VERSION FOR THE CHATBOT
+# COVID-19 CHATBOT
 
 This chatbot is an Indian extension for the Chatbot created under COVID Crisis Communication Starter Kit as mentioned downwards.
 
@@ -108,9 +108,6 @@ With this Watson Assistant powered Crisis Communications Starter Kit you can int
 15. User listens to the chat answer.
 
 ## Documents
-
-### Trusted sources for COVID-19 information
-- [CDC COVID-19 FAQ](https://www.cdc.gov/coronavirus/2019-ncov/faq.html)
 
 ### Tutorials and documentation:
 
@@ -222,16 +219,6 @@ Want to create a voice-enabled chatbot? This tutorial teaches you how to [create
 Finally, you can embed your COVID-19 crisis communication chatbot on a Node.js website.
 
 - Follow the [COVID-Simple installation instructions](./starter-kit/covid-simple/README.md)
-
-## Disclosures
-
-This tool is intended to provide information based on currently available CDC and other public information to help you make decisions about seeking appropriate medical care. This system is not intended for the diagnosis or treatment of disease or other conditions, including COVID-19, and you should not provide any personally identifying or private health information.
-
-This Watson Assistant bot is populated with data that is sourced from the following resources:
-
-- Most static responses provide information found on the CDC's COVID FAQ Page: https://www.cdc.gov/coronavirus/2019-ncov/faq.html
-- Dynamic news stories are sourced from Watson Discovery's news feed. Additional information on that service can be found here: https://www.ibm.com/watson/services/discovery-news/
-- Dynamic datas from various  trusted api's.
 
 ## License
 
