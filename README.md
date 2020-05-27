@@ -29,9 +29,8 @@ This chatbot is an Indian extension for the Chatbot created under COVID Crisis C
 14. Respond by sharing consistent, accurate COVID-19 information.
 15. Dynamically update information with the latest developments and recommendations.
 
-## Preview Link 
-
-    <a href = https://web-chat.global.assistant.watson.cloud.ibm.com/preview.html?region=eu-gb&integrationID=e319bc77-1902-4b54-8ec1-8a1bccb9f4c8&serviceInstanceID=d7840b8d-807d-4606-9e56-15cb66afe6ba/>
+## Preview Link -
+- LINK( https://web-chat.global.assistant.watson.cloud.ibm.com/preview.html?region=eu-gb&integrationID=e319bc77-1902-4b54-8ec1-8a1bccb9f4c8&serviceInstanceID=d7840b8d-807d-4606-9e56-15cb66afe6ba )
 
 ## Overview
 
