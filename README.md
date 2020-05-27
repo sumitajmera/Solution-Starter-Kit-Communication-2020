@@ -2,7 +2,7 @@
 
 This chatbot is an Indian extension for the Chatbot created under COVID Crisis Communication Starter Kit as mentioned downwards.
 
-The chatbot provides the user with following features-
+## The chatbot provides the user with following features-
 
 1.  Necessary information about the virus, how it can spread, and the appropriate preventive measures.
 2.  Timely updated COVID 19 cases with the death figure, recovery figure and the active figure of the cases on three levels   
@@ -29,7 +29,9 @@ The chatbot provides the user with following features-
 14. Respond by sharing consistent, accurate COVID-19 information.
 15. Dynamically update information with the latest developments and recommendations.
 
+## Preview Link 
 
+    https://web-chat.global.assistant.watson.cloud.ibm.com/preview.html?region=eu-gb&integrationID=e319bc77-1902-4b54-8ec1-       8a1bccb9f4c8&serviceInstanceID=d7840b8d-807d-4606-9e56-15cb66afe6ba
 
 ## Overview
 
