@@ -1,34 +1,41 @@
-# COVID Crisis Communications Starter Kit
+# INDIAN VERSION FOR THE CHATBOT
 
-This solution starter was created by technologists from IBM.  Translations are available: [JP](/README_JP.md)
+This chatbot is an Indian extension for the Chatbot created under COVID Crisis Communication Starter Kit as mentioned downwards.
 
-## Authors
+The chatbot provides the user with following features-
 
-- [Donna Byron](https://developer.ibm.com/profiles/dkbyron/) - IBM
-- [John Walicki](https://developer.ibm.com/profiles/walicki/) - IBM
-- [Matt Price](https://developer.ibm.com/profiles/pricem/) - IBM
-- [Mofizur Rahman](https://developer.ibm.com/profiles/mofizur.rahman) - IBM
-- [Pooja Mistry](https://developer.ibm.com/profiles/pmistry/) - IBM
-- [Upkar Lidder](https://developer.ibm.com/profiles/ulidder/) - IBM
+1.  Necessary information about the virus, how it can spread, and the appropriate preventive measures.
+2.  Timely updated COVID 19 cases with the death figure, recovery figure and the active figure of the cases on three levels   
+    a. WorldWide(Cases in the world as well as different countries)
+    b. NationWIde in India (Cases in various states of India)
+    c. State Wise for states of India ( Cases in the districts of India)
+3.  Information regarding segregated Zonal and state-level information of various resources complementing the people fight       the    COVID and their contact details along with what services they provide. (Updated daily) These resources include-
+    a. Hospitals that are nearby treating various ailments.
+    b. Testing facilities set up by the ICMR(Indian Council of Medical Research) and various state and central governments.
+    c. Police services.
+    d. Contacts to Free food services and Community Kitchens funded by governments and various private/social bodies.
+    e. Government Helplines details.
+    f. Various NGOs and fundraisers information.Information on the efforts made by the government for the social and mental          well     being of the citizens.
+4.  Testing details updated daily on how many testings have been done in a specific country up to date. (Updated as per the       records provided by the government).
+5.  We also provide the user with the feature to search the Top N[1-50] affected Countries (sorted by the number of cases) by     the COVID19 as well as Top N(1-25) affected States or Union Territories in India along with the details of incidents in       them.
+6.  The chatbot gives access to the people to search for various COVID19 related terminologies such as social distancing and     comorbidity.
+7.  The chatbot is capable of answering basic communicating questions such as hello, bye, I am bored, and more.
+8.  We provide a unique and interactive way of representing the information.
+9.  The chatbot answers queries regarding the effect on various age groups in society.
+10. It also queries regarding the importance of preventive measures and how the virus is transmitted.
+11. It also addresses the people queries regarding the go-to terms in India, such as aatmnirbhar.
+12. If any information is not present, uses IBM discovery to fetch related news articles regarding the query asked by the         user.
+13. It also answers queries regarding its name and info about its creator.
+14. Respond by sharing consistent, accurate COVID-19 information.
+15. Dynamically update information with the latest developments and recommendations.
 
-## Contents
 
-1. [Overview](#overview)
-2. [Video](#video)
-3. [The idea](#the-idea)
-4. [How it works](#how-it-works)
-5. [Diagrams](#diagrams)
-6. [Documents](#documents)
-7. [Datasets](#datasets)
-8. [Technology](#technology)
-9. [Getting started](#getting-started)
-9. [Resources](#resources)
-10.[License](#license)
 
 ## Overview
 
 ### What's the problem?
 In times of crisis, communications systems are often overwhelmed with people trying to find basic information about testing, symptoms, community response, and other resources. When communication lines get clogged, people who need real help can't get through. Chatbots help respond to tens, even hundreds, of thousands of messages a day.
+In India the problem is much deeper as due to the geopolitical and polulation density of the country.
 
 ### How can technology help ?
 
@@ -36,23 +43,12 @@ Whether via text, phone, websites, or communication apps, conversing with chatbo
 
 IBM Watson Assistant service helps you build, train, and deploy conversational interactions into any application, device, or channel. Creating a chatbot using Watson Assistant can help address the issues that our users face while trying to gather accurate, relevant information. Whether you're trying to learn the latest news about Covid-19 or learn where there's testing in your area, a chatbot can play a major role in helping communities quickly understand crucial information and free up customer service resources to focus on higher-level issues.
 
-## Video
-
-[![Call for Code Solution Starter: Water sustainability in the context of climate change ](https://img.youtube.com/vi/WzEj_m0hwF0/0.jpg)](https://www.youtube.com/watch?v=WzEj_m0hwF0)
 
 ## The idea
 
 COVID-19 has citizens looking for answers about symptoms and testing sites as well as current status of schools, transportation, and other public services. Using Watson Assistant, this Call for Code Starter Kit has designed a virtual assistant pre-loaded to understand and respond to common questions about COVID-19, scan COVID-19 news articles using Watson Discovery and respond to COVID statistics inquires with data from trusted sources.
 
 With this Watson Assistant powered Crisis Communications Starter Kit you can integrate a chatbot into your Call for Code solution in an IBM Cloud hosted web server, using a Slack integration or via a Node-RED Dashboard. 
-
-It can:
-- Respond by sharing consistent, accurate COVID-19 information
-- Help citizens quickly and easily access the latest information through their channel of choice – voice, text or collaborative tool
-- Free valuable resources by automating answers to common COVID-19 questions
-- Dynamically update information with the latest developments and recommendations
-
-The challenge for you is to build out from this framework to create a more complete solution.
 
 ## How it works
 
@@ -234,8 +230,8 @@ This tool is intended to provide information based on currently available CDC an
 This Watson Assistant bot is populated with data that is sourced from the following resources:
 
 - Most static responses provide information found on the CDC's COVID FAQ Page: https://www.cdc.gov/coronavirus/2019-ncov/faq.html
-- Dynamic infection and death counts are sourced from Johns Hopkins University via the following API: https://www.covid19api.com/
 - Dynamic news stories are sourced from Watson Discovery's news feed. Additional information on that service can be found here: https://www.ibm.com/watson/services/discovery-news/
+- Dynamic datas from various  trusted api's.
 
 ## License
 
